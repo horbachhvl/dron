@@ -1,0 +1,269 @@
+header {
+	width: 100%;
+	height: 580px;
+	background-color: #E3E6ED;
+	position: relative;
+	top: 0px;
+
+}
+a {
+	text-decoration: none;
+}
+.regtangle {
+	width: 460px;
+	height: 506px;
+	background-color: #12569B ;
+	border-radius: 0px 0px 300px 300px;
+	position: absolute;
+	right: 30px;
+	top: 0px;
+	z-index: 0;
+	
+
+}
+.kopter {
+	position: relative;
+	z-index: 3;
+}
+.logo-text {
+	width: 104px;
+	height: 50px;
+	padding-top: 40px;
+	margin: 32px 0 150px 121px;
+	font-family: "Comic Sans MS";
+	font-size: 24px;
+	
+}
+.logo-text-2 {
+	margin-left: 10px	;
+	font-family: "Comic Sans MS";
+}
+.logo-content {
+	width: 80%;
+	height: auto;
+	
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.logo-content-left {
+	width: 354px;
+	height: auto;
+	
+}
+.logo-content-left-text {
+	margin-top: 40px;
+	margin-left: 30px;
+	font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 90%;
+/* or 72px */
+
+letter-spacing: 0.15em;
+
+color: #212033;
+}
+.logo-content-left-button {
+margin: 40px 0 0 20px;
+
+width: 219px;
+height: 37px;
+
+text-align: center;
+color: white;
+background: #12569B;
+border-radius: 50px;
+padding-top: 15px;
+}
+/* main */
+main {
+	width: 100%;
+	height:  auto;
+
+}
+.main-foto {
+	width: 80%;
+	height: 200px;
+	display: flex;
+	column-gap: 10px;
+	flex-wrap: wrap;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+.main-text>span {
+	font-size: 26px;
+	font-style: bold;
+	font-family: 'Arial';
+}
+.main-text>p {
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.main-text {
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.main-foto-block {
+	flex: 1 1 0;
+	
+}
+.main-foto-block>img {
+	border-radius: 30px;
+	width: 90%;
+}
+.main-foto-line{
+	width: 80%;
+	height: 100px;
+	background-color: #E3E6ED;
+	z-index: -1;
+	position: absolute;
+	top: 900px;
+
+}
+.main-form-text{
+	font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 66px;
+width: 60%;
+text-align: center;
+height: auto;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+.main-form {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 10px;
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+.main-form-block {
+	
+	min-width: 30%;
+
+}
+span {
+	font-family: Arial Black;
+	margin-left: 5px;
+	display: block;
+
+}
+.fond {
+	width: 280px;
+	height: 34px;
+	border-radius: 80px;
+	border: 1px solid #12569B;
+	margin-top: 20px;
+	color: #12569B;
+	text-align: center;
+	font-family: "Rubik";
+	padding-top: 13px;
+}
+.card {
+	margin-top: 20px;
+	width: 251px;
+	height: 43px;
+	border-radius: 8px;
+	border: 1px solid #12569B;
+	
+	align-items: flex-start;
+}
+.card-dani {
+	width: 260px;
+	height: auto;
+	background-color: red;
+	margin-top: 105px;
+}
+.termin {
+	width: 115px;
+height: 43px;
+
+border: 1px solid #12569B;
+border-radius: 8px;
+margin: 20px 5px 0 0 ;
+}
+.main-form-block-button{
+	margin: 185px 0 0 20px;
+
+width: 219px;
+height: 37px;
+
+text-align: center;
+color: white;
+background: #12569B;
+border-radius: 50px;
+padding-top: 15px;
+}
+.termin-dii {
+	width: 122px;
+	height: auto;
+	
+	float: left;
+	margin: 40px 5px 0 0 ;
+}
+input[type=text]::placeholder {
+	text-align: center;
+}
+input{
+	text-align: center;
+	font-size: 18px;
+	
+}
+input[type=radio] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+input[type=radio] ~ span {
+	position: relative;
+	display: block;
+	width: 280px;
+	height: 24px;
+	border-radius: 80px;
+	border: 1px solid #12569B;
+	margin-top: 20px;
+	color: #12569B;
+	text-align: center;
+	font-family: "Rubik";
+	padding-top: 13px;
+	background-color: transparent;
+	border: 1px solid #12569B ;
+	padding: 15px 0px;
+	cursor: pointer;
+}
+input[type=radio]:checked ~ span {
+	background-color: #E3E6ED;
+}
+input[type=radio] ~ span::after {
+	content: "";
+}
+input[type=radio]:checked ~ span::after {
+	content:"✓";
+	right: 30px;
+	position: absolute;
+}
+/* end main */
+footer {
+	margin-top: 40px;
+	width: 100%;
+	height: 88px;
+	background-color: #12569B;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	font-family: "Calibri";
+	letter-spacing: 4px;
+}
+.footer-text 
+
